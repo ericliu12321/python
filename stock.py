@@ -69,4 +69,3 @@ for i in tup:
     pageurl="https://finance.yahoo.com/sector/ms_"+i+"?offset="+str(k*100)+"&count=100"
     getpage(pageurl, i)
 
-
